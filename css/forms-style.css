@@ -1,0 +1,47 @@
+body {font-family: 'Lato', sans-serif!important;}
+
+form {padding: 0;}
+
+label {display: none;}
+
+input[type=text] {
+	font-size: 90%;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	font-family: 'Lato', sans-serif!important;
+	-webkit-appearance: text;
+}
+
+select {
+	width: 100%;
+	height: 30px;
+	font-size: 90%;
+	font-family: 'Lato', sans-serif;
+	-webkit-appearance: menulist-button;
+}
+
+p {
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	margin-top: 8;
+	margin-bottom: 8px;
+	text-align: center;
+}
+p.clear {margin-bottom: 0;margin-top: 0;}
+
+#submit_button {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-size: 100%;
+	background: #1b5484;
+	box-shadow: none;
+	border: none;
+	border-radius: 6px;
+	padding: 10px;
+	outline: none;
+	width: 100%!important;
+	margin-bottom: 0px!important;
+}
+#submit_button:hover {
+	background: #b30000;
+}
