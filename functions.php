@@ -29,8 +29,5 @@ require get_template_directory() . '/inc/admin_styles.php';
 
 require get_template_directory() . '/inc/redcom_walker.php';
 
-
-require get_template_directory() . '/inc/update.php';
-
 require 'update/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker( 'https://github.com/mason-digital/redcom', __FILE__, 'redcom' );
