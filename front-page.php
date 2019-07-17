@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+THIS IS A TEST@!
 <?php // HOMEPAGE HERO
 	
 $hero = get_field('hero'); ?>
