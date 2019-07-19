@@ -6,7 +6,7 @@ $hero = get_field('hero'); ?>
 
 <section id="home-hero" role="banner">
 	
-	<?php putRevSlider('homepage', 'homepage'); // Revolution Slider ?>
+	<?php add_revslider('homepage'); // Revolution Slider ?>
 	
 	<?php if ( have_rows( 'market_columns' ) ) : ?>
 		<?php while ( have_rows( 'market_columns' ) ) : the_row(); ?>

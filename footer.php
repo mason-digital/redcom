@@ -23,7 +23,7 @@
 		  			<div class="col-6 col-lg-4">
 						<div class="site-logo">
 							<?php $site_logo = get_field('site_logo','option')?>
-							<a href="/" aria-label="Link to Homepage"><img src="<?php echo $site_logo['url']; ?>" alt="REDCOM Logo"></a>
+							<a href="/" aria-label="Link to Homepage"><img src="<?php echo $site_logo['url']; ?>" alt="<?php echo $site_logo['alt']; ?>"></a>
 						</div>
 						<div class="site-info">
 							<?php $company_info = get_field('company_info','option'); ?>

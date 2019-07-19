@@ -96,7 +96,7 @@
 					<div class="top-row">
 						<div id="site-logo">
 							<?php $site_logo = get_field('site_logo','option')?>
-							<a href="/" aria-label="Link to Homepage"><img src="<?php echo $site_logo['url']; ?>" alt="REDCOM Logo"></a>
+							<a href="/" aria-label="Link to Homepage"><img src="<?php echo $site_logo['url']; ?>" alt="<?php echo $site_logo['alt']; ?>"></a>
 						</div>
 						<a id="nav-toggle" aria-label="Mobile Navigation Menu">Menu</i></a>	
 					</div>
